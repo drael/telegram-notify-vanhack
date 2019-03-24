@@ -18,4 +18,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python test_app.py
+            python app/test_app.py
