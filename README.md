@@ -19,7 +19,7 @@ Here are the pipelines of this application on circleci (https://circleci.com/gh/
 
 # Public telegram channel
 Here are the public channel (https://t.me/tractionguestalerts) where the production app on heroku are sending the messages.
-If you want to try the version running on heroku, send me a message draelmaster@gmail.com and I send you the access token.
+If you want to try the version running on heroku, send me a message at draelmaster@gmail.com and I will send you the access token.
 
 # How To send a message
 You should send a post with a valid json data and the correct content-type **application/json** and a valid **token** header
