@@ -1,0 +1,18 @@
+jobs:
+  build:
+    working_directory: ~/app
+    docker:
+      - image: circleci/python:3.6.1
+        environment:
+          FLASK_APP: app.py
+    steps:
+      - checkout
+      - run:
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - run:
+          command: |
+            . venv/bin/activate
+            python test_app.py
